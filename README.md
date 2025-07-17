@@ -1,12 +1,11 @@
 # ReWord
 
-ReWord is a lightweight, standalone desktop application developed in Python that allows users to automatically restructure and rephrase text, particularly tailored for language learners, writers, and content reviewers. The application combines a clean UI with backend NL processing using Cohere's API to offer a convenient and accessible way to transform content.
+ReWord is a lightweight, standalone desktop application developed in Python that allows users to automatically restructure and rephrase text, making it suitable for use in professional messages or emails. The application combines a Tkinter UI with backend NL processing using Cohere's API to offer an easy way to rephrase and transform content.
 
 ## Features
 
 - User-friendly graphical interface
 - Input text box and output display for restructured content
-- Clipboard integration for input/output text
 - Standalone `.app` file for macOS created using PyInstaller
 
 ## Tech Stack
