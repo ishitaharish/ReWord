@@ -35,20 +35,20 @@ def run_app():
 
     root = tk.Tk()
     root.title("Corporate Email Rewriter")
-    root.geometry("800x600")
+    root.geometry("500x350")
 
     tk.Label(root, text="Enter Informal Text / Email:", font=("Arial", 12)).pack(pady=5)
-    input_box = scrolledtext.ScrolledText(root, wrap=tk.WORD, width=100, height=10, font=("Arial", 11))
+    input_box = scrolledtext.ScrolledText(root, wrap=tk.WORD, width=50, height=5, font=("Arial", 11))
     input_box.pack(padx=10, pady=10)
 
     convert_button = tk.Button(
-        root, text="Convert to Corporate Tone", command=convert_text,
+        root, text="Convert to Formal Tone", command=convert_text,
         font=("Arial", 12), bg="lightblue"
     )
     convert_button.pack(pady=10)
 
     tk.Label(root, text="Corporate Appropriate Version:", font=("Arial", 12)).pack(pady=5)
-    output_box = scrolledtext.ScrolledText(root, wrap=tk.WORD, width=100, height=10, font=("Arial", 11))
+    output_box = scrolledtext.ScrolledText(root, wrap=tk.WORD, width=500, height=5, font=("Arial", 11))
     output_box.pack(padx=10, pady=10)
 
     root.mainloop()
