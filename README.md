@@ -27,7 +27,7 @@ cd ReWord
 ```
 Note: At this point you must add your API key from Cohere, and make any changes to the prompt necessary. 
 
-### 2. Set Up a Virtual Environment (Recommended)
+### 2. Set Up a Virtual Environment 
 This project was developed and packaged within a clean Conda virtual environment to avoid package conflicts.
 ```bash
 conda create --name clean-env python=3.11
@@ -36,7 +36,7 @@ pip install -r requirements.txt
 ```
 Note: Do not install pathlib via pip. It is part of Python’s standard library and installing it explicitly causes packaging errors with PyInstaller.
 
-### 3. Run the Script (for development)
+### 3. Run the Script 
 
 
 ```bash
